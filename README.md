@@ -143,7 +143,7 @@ Answer
 
 ## Under what regedit path does the attacker check for evidence of a virtualized environment?
 
-I filtered the logs using the keyword 'Virtual' across the full index to find the answer.
+I filtered the logs using the keyword `Virtual` across the full index to find the answer.
 
 ![Finding Answer](assets/t5e.png "Finding Answer")
 
@@ -241,7 +241,7 @@ Answer
 
 ## To conceal their activities, what are the four types of event logs the attacker clears on the compromised system?
 
-By filtering the logs using the term `wevtutil`, a utility commonly used for managing Windows event logs. I identified a command where the attacker executed `wevtutil cl`, which is specifically used to clear event logs and erase traces of activity. This gave me the answer.
+By filtering the logs using the term `wevtutil`, a utility commonly used for managing Windows event logs also found in [Task 7](#the-attacker-uses-wevtutil-a-log-retrieval-tool-to-enumerate-windows-logs-what-event-ids-does-the-attacker-search-for). I identified a command where the attacker executed `wevtutil cl`, which is specifically used to clear event logs and erase traces of activity. This gave me the answer.
 
 ![Finding Answer](assets/t9c.png "Finding Answer")
 
