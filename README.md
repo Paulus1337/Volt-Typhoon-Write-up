@@ -240,7 +240,7 @@ Answer
 
 ## To conceal their activities, what are the four types of event logs the attacker clears on the compromised system?
 
-Filtering the logs using `wevtutil` revealed a command where the attacker tried to run `wevtutil cl`, which is the command to clear the Event Logs.
+By filtering the logs using the term `wevtutil`, a utility commonly used for managing Windows event logs. I identified a command where the attacker executed `wevtutil cl`, which is specifically used to clear event logs and erase traces of activity. This gave me the answer.
 
 ![Finding Answer](assets/t9c.png "Finding Answer")
 
