@@ -121,11 +121,11 @@ Volt Typhoon utilizes advanced defense evasion techniques to significantly reduc
 
 ## In an attempt to begin covering their tracks, the attackers remove evidence of the compromise. They first start by wiping RDP records. What PowerShell cmdlet does the attacker use to remove the “Most Recently Used” record?
 
-Based on my experience, I searched for 'MRU' in the Windows registry when 'Most Recently Used' was mentioned.
+Based on my experience I know 'MRU' is the Windows registry used for 'Most Recently Used', so I used keyword `MRU`.
 
 ![Finding Answer](assets/t5a.png "Finding Answer")
 
-As expected, the attacker removed MRU from the registry multiple times using a PowerShell command. This command is the answer.
+As expected, the attacker removed MRU from the registry multiple times using a PowerShell command. The PowerShell command used is the answer.
 
 Answer
 
