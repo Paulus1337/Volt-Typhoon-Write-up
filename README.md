@@ -186,7 +186,7 @@ The APT has been observed moving previously created web shells to different se
 ## The attacker uses wevtutil, a log retrieval tool, to enumerate Windows logs. What event IDs does the attacker search for?
 Answer Format: Increasing order separated by a space.
 
-Filtering the logs using `wevtutil` and checking the fields on the left provided all three Event IDs.
+Filtering the logs for term `wevtutil` and checking the fields on the left provided all three Event IDs.
 
 ![Finding Answer](assets/t7a.png "Finding Answer")
 
