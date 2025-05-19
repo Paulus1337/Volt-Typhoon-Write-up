@@ -37,7 +37,7 @@ Querying the index was straightforward. I used `index=<index>` and set the time 
 
 ![Splunk Querying](assets/t2c.png "Splunk Querying")
 
-Now that I figured how Splunk works let’s get into filtering, first make a filter to easily view the data I need, I also found the sourcetype for ADServiceDesk Plus is: **adss**
+Now that I figured how Splunk works let’s get into filtering, I also found the sourcetype for ADServiceDesk Plus is: **adss**
 
 So I just add `sourcetype=adss` to the filter than I always prefer Table views in these kinds of applications and add columns that allow me to see what’s happening, quickly.
 
