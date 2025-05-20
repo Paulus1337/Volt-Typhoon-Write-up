@@ -43,7 +43,7 @@ So I just add `sourcetype=adss` to the filter than I always prefer Table views i
 
 ![Splunk Filtering](assets/t2d.png "Splunk Filtering")
 
-To find the answer, I filtered the logs for **Password Change** and **Dean**. This revealed two actions: one failed and one successful. The **successful** action is the answer.
+To find the answer, I filtered the logs for **Password Change** and **Dean**. This revealed two actions: one failed and one completed. The **completed** action is the answer.
 
 ![Finding Answer](assets/t2e.png "Finding Answer")
 
